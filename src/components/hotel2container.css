@@ -1,0 +1,105 @@
+.hotel2container-hotel2container {
+  flex: 0 0 auto;
+  width: 1031px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  margin-bottom: 75px;
+}
+.hotel2container-hotel-container {
+  width: 478px;
+  height: 150px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  margin-right: 75px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.hotel2container-image {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.hotel2container-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hotel2container-text01 {
+  font-size: 1.5em;
+}
+.hotel2container-button {
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  border-width: 0px;
+  flex-direction: row;
+  text-transform: capitalize;
+  background-color: var(--dl-color-primary-lightgreen);
+}
+.hotel2container-text05 {
+  align-self: center;
+}
+.hotel2container-hotel-container1 {
+  width: 478px;
+  height: 150px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.hotel2container-image1 {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.hotel2container-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hotel2container-text08 {
+  font-size: 1.5em;
+}
+.hotel2container-button1 {
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  border-width: 0px;
+  flex-direction: row;
+  text-transform: capitalize;
+  background-color: var(--dl-color-primary-lightgreen);
+}
+.hotel2container-text12 {
+  align-self: center;
+}
