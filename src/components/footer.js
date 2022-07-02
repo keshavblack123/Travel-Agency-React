@@ -11,9 +11,6 @@ const Footer = (props) => {
         <div className="footer-container">
           <h1 className="">{props.heading}</h1>
         </div>
-        <span className="footer-text1">
-          © 2021 teleportHQ, All Rights Reserved.
-        </span>
         <div className="footer-icon-group">
           <svg viewBox="0 0 950.8571428571428 1024" className="footer-icon">
             <path
