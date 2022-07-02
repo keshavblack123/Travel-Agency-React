@@ -11,8 +11,8 @@ const HotelInfoPage = (props) => {
   return (
     <div className="hotel-info-page-container">
       <Helmet>
-        <title>Hotel Info Page - Travel Agency</title>
-        <meta property="og:title" content="Hotel Info Page - Travel Agency" />
+        <title>Hotel Info Page - Ascenda</title>
+        <meta property="og:title" content="Hotel Info Page - Ascenda" />
       </Helmet>
       <div className="hotel-info-page-top-container">
         <Header rootClassName="header-root-class-name1"></Header>
@@ -51,17 +51,27 @@ const HotelInfoPage = (props) => {
           </div>
         </div>
         <div className="hotel-info-page-container07">
-          <button className="hotel-info-page-button button">Overview</button>
-          <button className="hotel-info-page-button1 button">Rooms</button>
-          <button className="hotel-info-page-button2 button">Amenities</button>
-          <button className="hotel-info-page-button3 button">Map</button>
-          <button className="hotel-info-page-button4 button">Review</button>
+          <a href="#overview" className="hotel-info-page-link button">
+            Overview
+          </a>
+          <a href="#rooms" className="hotel-info-page-link1 button">
+            Rooms
+          </a>
+          <a href="#amenities" className="hotel-info-page-link2 button">
+            Amenities
+          </a>
+          <a href="#map" className="hotel-info-page-link3 button">
+            Map
+          </a>
+          <a href="#reviews" className="hotel-info-page-link4 button">
+            Review
+          </a>
         </div>
-        <div className="hotel-info-page-container08">
+        <div id="overview" className="hotel-info-page-container08">
           <h1>Overview</h1>
           <span>Information about the Hotel...</span>
         </div>
-        <div className="hotel-info-page-container09">
+        <div id="rooms" className="hotel-info-page-container09">
           <h1 className="hotel-info-page-text02">Rooms</h1>
           <Room2Container></Room2Container>
           <Room2Container></Room2Container>
@@ -77,18 +87,18 @@ const HotelInfoPage = (props) => {
               <span>Price</span>
               <span>Pax Allowable</span>
             </div>
-            <button className="hotel-info-page-button5 button">
+            <button className="hotel-info-page-button button">
               <span className="hotel-info-page-text07">
                 <span>Book</span>
               </span>
             </button>
           </div>
         </div>
-        <div className="hotel-info-page-container11">
+        <div id="amenities" className="hotel-info-page-container11">
           <h1>Amenities</h1>
           <span>Information about the Hotel...</span>
         </div>
-        <div className="hotel-info-page-container12">
+        <div id="map" className="hotel-info-page-container12">
           <h1>Map</h1>
           <img
             alt="image"
@@ -96,7 +106,7 @@ const HotelInfoPage = (props) => {
             className="hotel-info-page-image5"
           />
         </div>
-        <div className="hotel-info-page-container13">
+        <div id="reviews" className="hotel-info-page-container13">
           <h1>Reviews</h1>
           <div className="hotel-info-page-container14">
             <span>Person Name</span>

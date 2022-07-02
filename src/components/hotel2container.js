@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -20,11 +21,11 @@ const Hotel2Container = (props) => {
           <span>{props.text21}</span>
           <span>{props.text31}</span>
         </div>
-        <button className="hotel2container-button button">
+        <Link to="/hotel-info-page" className="hotel2container-navlink button">
           <span className="hotel2container-text05">
             <span>More Info</span>
           </span>
-        </button>
+        </Link>
       </div>
       <div className="hotel2container-hotel-container1">
         <img
@@ -39,7 +40,7 @@ const Hotel2Container = (props) => {
           <span>{props.text2}</span>
           <span>{props.text3}</span>
         </div>
-        <button className="hotel2container-button1 button">
+        <button className="hotel2container-button button">
           <span className="hotel2container-text12">
             <span>More Info</span>
           </span>

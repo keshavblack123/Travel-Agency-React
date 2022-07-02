@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -19,8 +20,12 @@ const Header = (props) => {
         ></NavigationLinks>
       </div>
       <div className="header-btn-group">
-        <button className="header-login button">{props.Login}</button>
-        <button className="header-register button">{props.Register}</button>
+        <Link to="/login-page" className="header-login button">
+          {props.Login}
+        </Link>
+        <Link to="/register-page" className="header-register button">
+          {props.Register}
+        </Link>
       </div>
       <div data-type="BurgerMenu" className="header-burger-menu">
         <svg viewBox="0 0 1024 1024" className="header-icon">

@@ -11,8 +11,8 @@ const Test = (props) => {
   return (
     <div className="test-container">
       <Helmet>
-        <title>Test - Travel Agency</title>
-        <meta property="og:title" content="Test - Travel Agency" />
+        <title>Test - Ascenda</title>
+        <meta property="og:title" content="Test - Ascenda" />
       </Helmet>
       <Header rootClassName="header-root-class-name"></Header>
       <Navbar rootClassName="navbar-root-class-name"></Navbar>

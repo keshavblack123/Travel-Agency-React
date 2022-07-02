@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -11,8 +12,8 @@ const LandingPage = (props) => {
   return (
     <div className="landing-page-container">
       <Helmet>
-        <title>Travel Agency</title>
-        <meta property="og:title" content="Travel Agency" />
+        <title>Ascenda</title>
+        <meta property="og:title" content="Ascenda" />
       </Helmet>
       <div className="landing-page-top-container">
         <Header rootClassName="header-root-class-name4"></Header>
@@ -64,7 +65,12 @@ const LandingPage = (props) => {
               </div>
             </div>
             <div className="landing-page-container08">
-              <SearchButton rootClassName="search-button-root-class-name2"></SearchButton>
+              <Link to="/hotels-page" className="landing-page-navlink">
+                <SearchButton
+                  rootClassName="search-button-root-class-name2"
+                  className="landing-page-component1"
+                ></SearchButton>
+              </Link>
             </div>
             <div className="landing-page-container09"></div>
             <div className="landing-page-container10"></div>

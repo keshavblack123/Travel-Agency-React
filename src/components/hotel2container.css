@@ -42,7 +42,7 @@
 .hotel2container-text01 {
   font-size: 1.5em;
 }
-.hotel2container-button {
+.hotel2container-navlink {
   height: 100%;
   display: flex;
   position: relative;
@@ -51,6 +51,7 @@
   border-width: 0px;
   flex-direction: row;
   text-transform: capitalize;
+  text-decoration: none;
   background-color: var(--dl-color-primary-lightgreen);
 }
 .hotel2container-text05 {
@@ -89,7 +90,7 @@
 .hotel2container-text08 {
   font-size: 1.5em;
 }
-.hotel2container-button1 {
+.hotel2container-button {
   height: 100%;
   display: flex;
   position: relative;

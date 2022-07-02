@@ -12,8 +12,8 @@ const HotelsPage = (props) => {
   return (
     <div className="hotels-page-container">
       <Helmet>
-        <title>Hotels Page - Travel Agency</title>
-        <meta property="og:title" content="Hotels Page - Travel Agency" />
+        <title>Hotels Page - Ascenda</title>
+        <meta property="og:title" content="Hotels Page - Ascenda" />
       </Helmet>
       <div className="hotels-page-top-container">
         <Header rootClassName="header-root-class-name3"></Header>
