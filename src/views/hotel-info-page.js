@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -87,11 +88,14 @@ const HotelInfoPage = (props) => {
               <span>Price</span>
               <span>Pax Allowable</span>
             </div>
-            <button className="hotel-info-page-button button">
+            <Link
+              to="/booking-form-page"
+              className="hotel-info-page-navlink button"
+            >
               <span className="hotel-info-page-text07">
                 <span>Book</span>
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div id="amenities" className="hotel-info-page-container11">

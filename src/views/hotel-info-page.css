@@ -192,7 +192,7 @@
 .hotel-info-page-text04 {
   font-size: 1.5em;
 }
-.hotel-info-page-button {
+.hotel-info-page-navlink {
   height: 100%;
   display: flex;
   position: relative;
@@ -201,6 +201,7 @@
   border-width: 0px;
   flex-direction: row;
   text-transform: capitalize;
+  text-decoration: none;
   background-color: var(--dl-color-primary-lightgreen);
 }
 .hotel-info-page-text07 {

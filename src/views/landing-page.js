@@ -65,7 +65,7 @@ const LandingPage = (props) => {
               </div>
             </div>
             <div className="landing-page-container08">
-              <Link to="/hotels-page" className="landing-page-navlink">
+              <Link to="/hotel-search-results" className="landing-page-navlink">
                 <SearchButton
                   rootClassName="search-button-root-class-name2"
                   className="landing-page-component1"
