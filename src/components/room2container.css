@@ -42,7 +42,7 @@
 .room2container-text01 {
   font-size: 1.5em;
 }
-.room2container-button {
+.room2container-navlink {
   height: 100%;
   display: flex;
   position: relative;
@@ -51,6 +51,7 @@
   border-width: 0px;
   flex-direction: row;
   text-transform: capitalize;
+  text-decoration: none;
   background-color: var(--dl-color-primary-lightgreen);
 }
 .room2container-text04 {
@@ -89,7 +90,7 @@
 .room2container-text07 {
   font-size: 1.5em;
 }
-.room2container-button1 {
+.room2container-navlink1 {
   height: 100%;
   display: flex;
   position: relative;
@@ -98,6 +99,7 @@
   border-width: 0px;
   flex-direction: row;
   text-transform: capitalize;
+  text-decoration: none;
   background-color: var(--dl-color-primary-lightgreen);
 }
 .room2container-text10 {
