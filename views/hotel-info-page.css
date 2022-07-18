@@ -1,0 +1,305 @@
+.hotel-info-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.hotel-info-page-top-container {
+  width: 100%;
+  height: 2645px;
+  display: flex;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, #9fedd7 0%, #026670 100%);
+  background-position: 0% 40%;
+}
+.hotel-info-page-gallery {
+  width: 1050px;
+  height: 668px;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+}
+.hotel-info-page-container01 {
+  flex: 3;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hotel-info-page-container02 {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.hotel-info-page-container03 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hotel-info-page-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hotel-info-page-container04 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hotel-info-page-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hotel-info-page-container05 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hotel-info-page-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hotel-info-page-container06 {
+  flex: 2;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hotel-info-page-image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hotel-info-page-container07 {
+  width: 1006px;
+  height: 65px;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: flex-start;
+}
+.hotel-info-page-link {
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.hotel-info-page-link1 {
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.hotel-info-page-link2 {
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.hotel-info-page-link3 {
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.hotel-info-page-link4 {
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.hotel-info-page-container08 {
+  width: 1015px;
+  height: 148px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hotel-info-page-container09 {
+  width: 1005px;
+  height: 666px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hotel-info-page-text02 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.hotel-info-page-room-container {
+  width: 478px;
+  height: 150px;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  margin-right: 50px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.hotel-info-page-image4 {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.hotel-info-page-container10 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hotel-info-page-text04 {
+  font-size: 1.5em;
+}
+.hotel-info-page-navlink {
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  border-width: 0px;
+  flex-direction: row;
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: var(--dl-color-primary-lightgreen);
+}
+.hotel-info-page-text07 {
+  align-self: center;
+}
+.hotel-info-page-container11 {
+  width: 1015px;
+  height: 148px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hotel-info-page-container12 {
+  width: 1015px;
+  height: 408px;
+  display: flex;
+  padding: 0px;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hotel-info-page-image5 {
+  width: 874px;
+  height: 354px;
+  align-self: center;
+  object-fit: cover;
+}
+.hotel-info-page-container13 {
+  width: 1015px;
+  height: 297px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hotel-info-page-container14 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hotel-info-page-text15 {
+  width: 100%;
+  height: 100%;
+}
+.hotel-info-page-container15 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hotel-info-page-text18 {
+  width: 100%;
+  height: 100%;
+}
+@media(max-width: 991px) {
+  .hotel-info-page-container06 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .hotel-info-page-gallery {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .hotel-info-page-container02 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .hotel-info-page-gallery {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .hotel-info-page-container01 {
+    width: auto;
+  }
+}
