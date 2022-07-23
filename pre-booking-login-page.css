@@ -35,12 +35,20 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.pre-booking-login-page-container3 {
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .pre-booking-login-page-navlink {
   color: var(--dl-color-primary-white);
   font-size: 20px;
   font-family: Roboto;
   padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-primary-brown);
+  border-width: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius2);
   padding-right: var(--dl-space-space-doubleunit);
@@ -48,12 +56,19 @@
   text-decoration: none;
   background-color: transparent;
 }
+.pre-booking-login-page-container4 {
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .pre-booking-login-page-navlink1 {
   font-size: 20px;
   font-family: Roboto;
   padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-primary-brown);
-  border-width: 1px;
+  border-width: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius2);
   padding-right: var(--dl-space-space-doubleunit);

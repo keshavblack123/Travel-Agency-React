@@ -92,6 +92,8 @@
   width: auto;
   display: flex;
   align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
   flex-direction: row;
   justify-content: space-between;
 }

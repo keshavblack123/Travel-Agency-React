@@ -92,6 +92,8 @@
   width: auto;
   display: flex;
   align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -460,6 +462,13 @@
   margin-bottom: var(--dl-space-space-unit);
   justify-content: space-between;
 }
+.delete-account-check-page-container5 {
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
+  justify-content: space-between;
+}
 .delete-account-check-page-navlink {
   font-size: 20px;
   align-self: center;
@@ -467,6 +476,7 @@
   font-family: Roboto;
   padding-top: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-primary-brown);
+  border-width: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   padding-right: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-halfunit);
@@ -476,6 +486,13 @@
 .delete-account-check-page-text10 {
   color: var(--dl-color-primary-white);
 }
+.delete-account-check-page-container6 {
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
+  justify-content: space-between;
+}
 .delete-account-check-page-navlink1 {
   color: var(--dl-color-primary-brown);
   font-size: 20px;
@@ -484,6 +501,7 @@
   font-family: Roboto;
   padding-top: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-primary-brown);
+  border-width: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   padding-right: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-halfunit);
@@ -493,7 +511,7 @@
 .delete-account-check-page-text14 {
   background-color: transparent;
 }
-.delete-account-check-page-container5 {
+.delete-account-check-page-container7 {
   width: 100%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
