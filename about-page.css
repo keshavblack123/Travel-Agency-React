@@ -92,6 +92,8 @@
   width: auto;
   display: flex;
   align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -407,7 +409,6 @@
   margin-top: 0px;
   font-family: Roboto;
   padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-primary-brown);
   border-width: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   margin-bottom: 0px;

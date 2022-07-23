@@ -57,6 +57,15 @@
   font-size: 23px;
   font-family: Roboto;
 }
+.room-container-container1 {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 .room-container-navlink {
   color: var(--dl-color-primary-brown);
   width: auto;
@@ -69,8 +78,7 @@
   align-items: center;
   font-family: Roboto;
   padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-primary-brown);
-  border-width: 1px;
+  border-width: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius2);
   padding-right: var(--dl-space-space-doubleunit);

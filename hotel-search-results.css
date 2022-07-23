@@ -92,6 +92,8 @@
   width: auto;
   display: flex;
   align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -215,12 +217,16 @@
   display: flex;
   position: relative;
 }
+.search-button-container1 {
+  display: flex;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
+}
 .search-button-button {
   color: var(--dl-color-primary-brown);
   font-size: 20px;
   padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-primary-brown);
-  border-width: 1px;
+  border-width: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius2);
   padding-right: var(--dl-space-space-doubleunit);
@@ -301,6 +307,7 @@
   width: 100%;
   border-width: 0px;
   margin-right: 0px;
+  border-radius: var(--dl-radius-radius-radius2);
 }
 .search-con-container1 {
   width: auto;
@@ -328,7 +335,9 @@
   width: 100%;
   border-width: 0px;
   margin-right: 0px;
+  border-top-left-radius: var(--dl-radius-radius-radius2);
   border-top-right-radius: 0;
+  border-bottom-left-radius: var(--dl-radius-radius-radius2);
   border-bottom-right-radius: 0;
 }
 .search-con-end {
@@ -352,7 +361,9 @@
   border-width: 0px;
   margin-right: 0px;
   border-top-left-radius: 0;
+  border-top-right-radius: var(--dl-radius-radius-radius2);
   border-bottom-left-radius: 0;
+  border-bottom-right-radius: var(--dl-radius-radius-radius2);
 }
 .search-con-container2 {
   width: auto;
@@ -381,7 +392,9 @@
   width: 100%;
   border-width: 0px;
   margin-right: 0px;
+  border-top-left-radius: var(--dl-radius-radius-radius2);
   border-top-right-radius: 0;
+  border-bottom-left-radius: var(--dl-radius-radius-radius2);
   border-bottom-right-radius: 0;
 }
 .search-con-pax {
@@ -406,7 +419,9 @@
   border-width: 0px;
   margin-right: 0px;
   border-top-left-radius: 0;
+  border-top-right-radius: var(--dl-radius-radius-radius2);
   border-bottom-left-radius: 0;
+  border-bottom-right-radius: var(--dl-radius-radius-radius2);
 }
 .search-con-filter-container {
   width: 100%;
@@ -430,40 +445,50 @@
 .search-con-select {
   width: 145px;
   height: 35px;
+  align-self: center;
   padding-top: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-doubleunit);
-  border-radius: var(--dl-radius-radius-radius4);
+  border-radius: var(--dl-radius-radius-radius2);
   padding-right: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-unit);
 }
 .search-con-select1 {
   width: 145px;
   height: 35px;
+  align-self: center;
   padding-top: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-doubleunit);
-  border-radius: var(--dl-radius-radius-radius4);
+  border-radius: var(--dl-radius-radius-radius2);
   padding-right: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-unit);
 }
 .search-con-select2 {
   width: 145px;
   height: 35px;
+  align-self: center;
   padding-top: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-doubleunit);
-  border-radius: var(--dl-radius-radius-radius4);
+  border-radius: var(--dl-radius-radius-radius2);
   padding-right: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-unit);
+}
+.search-con-container3 {
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
+  justify-content: flex-start;
 }
 .search-con-button {
   color: var(--dl-color-primary-brown);
   width: auto;
+  font-size: 20px;
   text-align: center;
   padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-primary-brown);
-  border-width: 1px;
+  border-width: 0px;
   margin-right: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius2);
@@ -536,6 +561,15 @@
   font-size: 23px;
   font-family: Roboto;
 }
+.hotel2container-container1 {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 .hotel2container-navlink {
   color: var(--dl-color-primary-brown);
   width: auto;
@@ -548,8 +582,7 @@
   align-items: center;
   font-family: Roboto;
   padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-primary-brown);
-  border-width: 1px;
+  border-width: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius2);
   padding-right: var(--dl-space-space-doubleunit);

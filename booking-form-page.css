@@ -327,16 +327,25 @@
   border-width: 0px;
   text-transform: capitalize;
 }
+.booking-form-page-container13 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
 .booking-form-page-navlink {
   color: var(--dl-color-primary-brown);
+  margin: 0px;
   font-size: 23px;
   align-self: center;
-  margin-top: var(--dl-space-space-unit);
   font-family: Roboto;
   padding-top: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-primary-brown);
+  border-width: 0px;
   padding-left: var(--dl-space-space-doubleunit);
-  margin-bottom: var(--dl-space-space-doubleunit);
   padding-right: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;

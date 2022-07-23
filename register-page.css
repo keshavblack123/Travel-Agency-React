@@ -92,6 +92,8 @@
   width: auto;
   display: flex;
   align-items: center;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -483,11 +485,13 @@
 }
 .register-page-container6 {
   flex: 0 0 auto;
-  width: 195px;
-  height: 64px;
+  width: auto;
+  height: auto;
   display: flex;
   align-self: flex-start;
   align-items: flex-end;
+  border-color: var(--dl-color-primary-brown);
+  border-width: 1px;
   justify-content: flex-start;
 }
 .register-page-navlink {
@@ -495,8 +499,7 @@
   font-size: 20px;
   font-family: Roboto;
   padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-primary-brown);
-  border-width: 1px;
+  border-width: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius2);
   padding-right: var(--dl-space-space-doubleunit);
