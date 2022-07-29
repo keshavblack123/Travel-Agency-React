@@ -369,24 +369,37 @@
   color: var(--dl-color-primary-brown);
   font-size: 50px;
   font-family: Roboto;
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
 }
 .contact-page-container2 {
   width: auto;
   height: auto;
   display: flex;
   align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
   justify-content: flex-start;
 }
 .contact-page-text1 {
   color: var(--dl-color-primary-white);
-  margin: 0px;
   font-size: 25px;
   align-self: flex-start;
   font-style: normal;
+  margin-top: 0px;
   font-family: Roboto;
   font-weight: 600;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.contact-page-text2 {
+  color: var(--dl-color-primary-brown);
+}
+.contact-page-text5 {
+  color: var(--dl-color-primary-white);
 }
 .contact-page-link {
   color: var(--dl-color-primary-brown);
