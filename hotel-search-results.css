@@ -172,6 +172,9 @@
   left: 112px;
   position: absolute;
 }
+.header-root-class-name1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 
 
 
@@ -187,7 +190,12 @@
 
 
 
-
+.header-root-class-name17 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.header-root-class-name18 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 @media(max-width: 767px) {
   .header-header {
     padding-left: 32px;
@@ -695,6 +703,8 @@
 .footer-root-class-name14 {
   background-color: transparent;
 }
+
+
 @media(max-width: 767px) {
   .footer-footer1 {
     padding-left: 32px;
