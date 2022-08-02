@@ -351,7 +351,6 @@
 .hotel-pictures-hero {
   flex: 1;
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   max-width: 1000px;
   align-items: center;
@@ -360,7 +359,12 @@
   padding-right: var(--dl-space-space-doubleunit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-tripleunit);
-  justify-content: center;
+  justify-content: flex-start;
+}
+.hotel-pictures-image {
+  width: 212px;
+  height: 212px;
+  object-fit: cover;
 }
 @media(max-width: 991px) {
   .hotel-pictures-hero {
