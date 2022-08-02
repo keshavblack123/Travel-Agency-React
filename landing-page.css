@@ -196,6 +196,7 @@
 .header-root-class-name18 {
   margin-bottom: var(--dl-space-space-unit);
 }
+
 @media(max-width: 767px) {
   .header-header {
     padding-left: 32px;
@@ -357,6 +358,7 @@
 }
 
 
+
 @media(max-width: 767px) {
   .footer-footer1 {
     padding-left: 32px;
@@ -434,7 +436,7 @@
   font-family: Roboto;
   font-weight: 700;
 }
-.landing-page-container02 {
+.landing-page-destination-container {
   width: 100%;
   height: 85px;
   display: flex;
@@ -462,7 +464,7 @@
   border-width: 0px;
   text-transform: capitalize;
 }
-.landing-page-container03 {
+.landing-page-container02 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -471,7 +473,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.landing-page-container04 {
+.landing-page-container03 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
@@ -492,7 +494,7 @@
   width: 270px;
   height: 43px;
 }
-.landing-page-container05 {
+.landing-page-container04 {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
@@ -512,7 +514,7 @@
   width: 270px;
   height: 43px;
 }
-.landing-page-container06 {
+.landing-page-container05 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -521,7 +523,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.landing-page-container07 {
+.landing-page-container06 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
@@ -542,7 +544,7 @@
   width: 200px;
   height: 43px;
 }
-.landing-page-container08 {
+.landing-page-container07 {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
@@ -562,7 +564,7 @@
   width: 200px;
   height: 43px;
 }
-.landing-page-container09 {
+.landing-page-container08 {
   flex: 0 0 auto;
   width: 328px;
   height: 64px;
@@ -571,7 +573,7 @@
   margin-bottom: 0px;
   justify-content: flex-start;
 }
-.landing-page-container10 {
+.landing-page-container09 {
   display: flex;
   align-self: flex-end;
   border-color: var(--dl-color-primary-brown);
@@ -596,14 +598,14 @@
 .landing-page-component1 {
   text-decoration: none;
 }
-.landing-page-container11 {
+.landing-page-container10 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.landing-page-container12 {
+.landing-page-container11 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   position: relative;

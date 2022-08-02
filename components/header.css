@@ -196,6 +196,7 @@
 .header-root-class-name18 {
   margin-bottom: var(--dl-space-space-unit);
 }
+
 @media(max-width: 767px) {
   .header-header {
     padding-left: 32px;
