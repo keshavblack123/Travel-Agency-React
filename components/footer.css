@@ -92,6 +92,12 @@
 
 
 
+
+.footer-root-class-name19 {
+  opacity: 1;
+  align-self: center;
+  background-color: transparent;
+}
 @media(max-width: 767px) {
   .footer-footer1 {
     padding-left: 32px;

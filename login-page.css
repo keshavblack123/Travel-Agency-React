@@ -197,6 +197,8 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 
+
+
 @media(max-width: 767px) {
   .header-header {
     padding-left: 32px;
@@ -317,6 +319,12 @@
 
 
 
+
+.footer-root-class-name19 {
+  opacity: 1;
+  align-self: center;
+  background-color: transparent;
+}
 @media(max-width: 767px) {
   .footer-footer1 {
     padding-left: 32px;

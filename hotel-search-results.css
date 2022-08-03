@@ -197,6 +197,8 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 
+
+
 @media(max-width: 767px) {
   .header-header {
     padding-left: 32px;
@@ -262,6 +264,12 @@
   align-self: flex-end;
 }
 .search-button-root-class-name3 {
+  align-self: flex-end;
+}
+.search-button-root-class-name4 {
+  left: 0px;
+  bottom: 0px;
+  position: 0px;
   align-self: flex-end;
 }
 
@@ -707,6 +715,12 @@
 
 
 
+
+.footer-root-class-name19 {
+  opacity: 1;
+  align-self: center;
+  background-color: transparent;
+}
 @media(max-width: 767px) {
   .footer-footer1 {
     padding-left: 32px;
